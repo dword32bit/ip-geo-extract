@@ -7,7 +7,7 @@ link = input("Input link address : ")
 
 def get_ip(link):
     process = subprocess.Popen(
-        ['wget', link, '-O', 'video.mp4'],
+        ['wget', link, '-O', 'get'],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE
     )
