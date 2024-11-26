@@ -26,14 +26,6 @@ def get_ip(link):
     else:
         print('No IP addresses found')
 
-    filename = 'get'
-    i = 1
-    while os.path.exists(filename):
-        filename = f'get{i}'
-        i += 1
-    os.rename('get', filename)
-    print(f'File saved as {filename}')
-
     for ip in ip_addresses:
         get_geo(ip)
 
