@@ -7,16 +7,13 @@ Here’s the `README.md` in English for your GitHub project:
 **IP and Geolocation Extractor** is a Python program that downloads a file from a provided link, extracts the IP addresses of the servers accessed during the download process, and retrieves geolocation information for each IP.
 
 ## Features
-- Download files from a provided link using `wget`.
-- Extract server IP addresses involved during the download.
+- Extract server IP addresses.
 - Display geolocation details for each IP using the [ip-api](http://ip-api.com) service.
-- Save the video file with a unique name if a file with the same name already exists.
 
 ## Requirements
 - Python 3.x
 - Python packages: 
   - `requests`
-- Wget (installed on your system)
 
 ## Installation
 1. Ensure Python 3.x and Wget are installed on your system.
