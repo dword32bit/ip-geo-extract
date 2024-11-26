@@ -4,7 +4,7 @@ Here’s the `README.md` in English for your GitHub project:
 
 # IP and Geolocation Extractor
 
-**IP and Geolocation Extractor** is a Python program that downloads a video file from a provided link, extracts the IP addresses of the servers accessed during the download process, and retrieves geolocation information for each IP.
+**IP and Geolocation Extractor** is a Python program that downloads a file from a provided link, extracts the IP addresses of the servers accessed during the download process, and retrieves geolocation information for each IP.
 
 ## Features
 - Download files from a provided link using `wget`.
